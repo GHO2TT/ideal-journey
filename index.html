@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/9d3b02acdb.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="icon" href="Assets/CSS/images/icon.jpg">
+    <title>Hike</title>
+</head>
+
+<!-- bg-gradient-to-t from-[#fbc2eb] to-[#a6c1ee] h-screen -->
+
+<body class="font-[Poppins]">
+
+    <header class="decoration-transparent py-3">
+        <nav class="flex justify-between items-center w-[92%] mx-auto">
+            <div class="">
+                <h1 class="text-3xl py-1 font-semibold text-gray-900">Hike</h1>
+            </div>
+
+            <div class=" nav-links md:static absolute bg-white md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto w-full flex item-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li><a class="hover:text-gray-500" href="#">Features</a></li>
+                    <li><a class="hover:text-gray-500" href="#">Pricing</a></li>
+                    <li><a class="hover:text-gray-500" href="#">Login</a></li>
+                </ul>
+            </div>
+
+            <div class="flex item-center gap-6">
+            <button class="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">SIGN UP FOR FREE</button>
+            <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <div class="first1 bg-gray-900 text-center text-white">
+        <h1 class="px-9 text-3xl py-8 font-semibold">Hike</h1>
+        <p class="top-p">Hiking is a popular outdoor recreational activity that offers numerous physical and mental health benefits. It allows individuals to connect with nature, improve their physical fitness, and challenge themselves in a safe and controlled environment. we will explore the benefits of hiking, the different types of hiking, and the essential gear and safety tips for a successful hiking trip.</p>
+    </div>
+
+
+    <section class="px-20">
+
+        <div class="grid grid-rows-1 grid-flow-col mb-8">
+            <div class="row-span-2 pt-9 pr-9 pl-9">
+                <h1 class="text-3xl py-8 font-semibold text-gray-900">Benefits of Hiking:</h1>
+                <p class="pb-5 pr-9">1. Physical Health Benefits: Hiking is an excellent way to improve cardiovascular health, build muscle strength and endurance, and increase flexibility. It can also help with weight loss and management.
+                    <br>
+                    2. Mental Health Benefits: Hiking has been shown to reduce stress, anxiety, and depression by providing a sense of calm and connection to nature. It can also improve cognitive function and overall well-being.
+                    <br>
+                    3. Social Benefits: Hiking with friends or family can improve social connections and build relationships. It can also provide opportunities for solo hikers to meet new people and form hiking communities.</p>
+                <button class="bg-gray-400 p-3 text-gray-900 font-semibold">LEARN HOW IT WORKS</button>
+            </div>
+
+            <div class="row-span-2 "> <img class="tops firstright1" src="Assets/CSS/images/1.jpg" alt="" srcset=""></div>
+        </div>
+        
+        <hr>
+
+        <div class="grid grid-rows-1 grid-flow-col mb-8">
+
+            <div class="row-span-2 "> <img class="tops firstright2" src="Assets/CSS/images/2.jpg" alt="" srcset=""></div>
+
+            <div class="row-span-2 pt-9 pr-9 pl-9">
+                <h1 class="text-3xl py-8 font-semibold text-gray-900">Types of Hiking:</h1>
+                <p class="pb-5 pr-9">1. Day Hiking: Day hiking involves hiking for a few hours or a full day, returning to the starting point at the end of the day. This type of hiking is ideal for beginners and those with limited time.
+                    <br>
+                    2. Overnight Hiking: Overnight hiking involves hiking for multiple days, setting up camp at night, and returning home after a few days. This type of hiking requires more planning and preparation, but offers a more immersive experience.
+                    <br>
+                    3. Long-Distance Hiking: Long-distance hiking involves hiking for multiple weeks or months, covering long distances and camping along the way. This type of hiking is ideal for experienced hikers and those looking for a challenging adventure.</p>
+                <button class="bg-gray-400 p-3 text-gray-900 font-semibold">Learn More</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="grid grid-rows-1 grid-flow-col mb-8">
+            <div class="row-span-2 pt-9 pr-9 pl-9">
+                <h1 class="text-3xl py-8 font-semibold text-gray-900">You handle the booking, we'll take it from there</h1>
+                <p class="pb-5 pr-9">1. Hiking Boots or Shoes: Hiking boots or shoes are essential for protecting the feet and ankles from rough terrain and injuries. Look for boots or shoes with good tread and ankle support.
+                    <br>
+                    2. Comfortable Clothing: Wear comfortable, breathable clothing and layers for adjusting to changing weather conditions.
+                    <br>
+                    3. Backpack: A backpack is essential for carrying essential gear, such as water, snacks, and a first aid kit. Look for a backpack with multiple compartments and pockets for organization.
+                    <br>
+                    4. Water and Snacks: Bring enough water and snacks to last throughout the hike. Dehydration and hunger can lead to dangerous situations.</p>
+                <button class="bg-gray-400 p-3 text-gray-900 font-semibold">Join Now</button>
+            </div>
+
+            <div class="row-span-2"> <img class="tops firstright3" src="Assets/CSS/images/3.jpg" alt="" srcset=""></div>
+        </div>
+
+    </section>
+
+    <div class="second1 text-center text-white py-20">
+        <h1 class="bottom-h px-9 text-3xl py-8 font-semibold">Try the Hike app that keeps up with you</h1>
+        <p class="bottom-p">we will explore the benefits of hiking, the different types of hiking, and the essential gear and safety tips for a successful hiking trip.
+            </p>
+            <button class="bg-gray-400 p-3 text-gray-900 font-semibold">SIGN UP FOR FREE</button>
+    </div>
+
+    
+    <div class="grid grid-rows-1 grid-col-4 text-gray-900">
+
+        <div class="row-span-4 col-span-1">
+            <h1 class="font-semibold py-5 ">Products</h1>
+            <p class="py-1">Download App</p>
+            <p class="py-1">Hike</p>
+            <p class="py-1">Hike Pro</p>
+            <p class="py-1">Hike for Teams</p>
+            <p class="py-1">Help Center</p>
+        </div>
+
+        <div class="row-span-4 col-span-1">
+            <h1 class="font-semibold py-5 ">NEWS & RESOURCES</h1>
+            <p class="py-1">Blog</p>
+            <p class="py-1">Press</p>
+            <p class="py-1">Jobs</p>
+            <p class="py-1">User Agreement</p>
+            <p class="py-1">Privacy Policy</p>
+            <p class="py-1">Security</p>
+            <p class="py-1">Cookie Preferences</p>
+
+
+        </div>
+
+        <div class="row-span-4 col-span-4">
+            <h1 class="font-semibold py-5 ">PARTHERS</h1>
+            <p class="py-1">Developer API</p>
+            <p class="py-1">Supported Booking Sites</p>
+        </div>
+        
+    </div>
+
+    <div class="center py-8">
+    <hr></div>
+
+    <div class="bottomcontainer center text-gray-800">
+        <a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest fa-2xl"></i></a>
+        <br><br/>
+        <p>©Onyekachi David Ikechukwu 2023 Hike. All Right Reserved</p>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="Assets/Javascript/script.js"></script>
+</body>
+</html>
